@@ -5,7 +5,7 @@ description: How to implement SSR authentication with Appwrite
 ---
 Server-side rendering (SSR) is fully supported with Appwrite. You can use Appwrite with many SSR-oriented frameworks, such as Next.js, SvelteKit, Nuxt, Gatsby, Remix, and more.
 
-SSR is a technique where the server renders a web page and sending the fully rendered page to the client's web browser. This is in contrast to client-side rendering (CSR), where the client's web browser renders the page using JavaScript.
+SSR is a technique where the server renders a web page and sends the fully rendered page to the client's web browser. This is in contrast to client-side rendering (CSR), where the client's web browser renders the page using JavaScript.
 
 This guide will walk you through the process of implementing an SSR application with Appwrite.
 
@@ -46,7 +46,7 @@ Admin clients should only be used if you need to perform admin actions that bypa
 or [unauthenticated requests that bypass rate limits](#rate-limits).
 {% /info %}
 
-To initialize the admin client, we'll need to first [generated an API key](/docs/advanced/platform/api-keys#create-api-key).
+To initialize the admin client, we'll need to first [generate an API key](/docs/advanced/platform/api-keys#create-api-key).
 The API key should have the following scope in order to perform authentication:
 
 | Category  {% width=120 %} | Required scopes    | Purpose |
